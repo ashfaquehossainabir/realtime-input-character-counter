@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function InputCounter() {
     const [val, setVal] = useState('')
@@ -15,7 +17,7 @@ function InputCounter() {
                 setWord(0)
             }
         } else {
-            alert('You can type only 5 words')
+            toast.error('You can type only 5 words', { theme: 'light' })
         }
     }
 
