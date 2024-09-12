@@ -39,10 +39,10 @@ body {
     color: gray;
 }
 
-.total-counter {
+.letter-counter {
     color: slateblue;
 }
 
-.remaining-counter {
+.word-counter {
     color: orangered;
 }

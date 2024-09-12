@@ -27,11 +27,11 @@ function InputCounter() {
 
                 <div className='counter-container'>
                     <p>
-                        Letters Count: <span className='total-counter'>{ val.length }</span>
+                        Letters Count: <span className='letter-counter'>{ val.length }</span>
                     </p>
 
                     <p>
-                        Words Count: <span className='remaining-counter'>{ word }/5</span>
+                        Words Count: <span className='word-counter'>{ word }/5</span>
                     </p>
                 </div>
             </div>
